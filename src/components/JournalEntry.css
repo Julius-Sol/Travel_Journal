@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+/***************************
+          Typography
+****************************/
+
+section {
+  font-family: "Inter", sans-serif;
+  color: #2b283a;
+}
+
+.desc {
+  font-size: 11px;
+  line-height: 150%;
+}
+
+.entry-title a {
+  color: #918e9b;
+  font-size: 12px;
+}
+
+.entry-date,
+.entry-title-text {
+  font-weight: 700;
+}
+
+.entry-date {
+  font-size: 12px;
+}
+
+.entry-title-text {
+  font-size: 25px;
+}
+
+hr {
+  opacity: 0.1;
+}
+
+.entry-location {
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+/***************************
+          Layout
+****************************/
+
+/* Images */
+.card-entry {
+  display: flex;
+}
+
+.image-container {
+  width: 100%;
+  max-width: 150px;
+  height: 200px;
+}
+.entry-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.card-entry-info {
+  margin: 0 auto 0 2vw;
+  max-width: 60%;
+}
+/**/
+.entry-title {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  margin-bottom: 0.5rem;
+}
+
+h1,
+h3 {
+  margin: 0;
+}
+
+.entry-title-icon {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.entry-title-text {
+  margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 430px) {
+  .card-entry {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
