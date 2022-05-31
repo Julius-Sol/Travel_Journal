@@ -16,12 +16,12 @@ Travel Journal created with React
 
 ### The challenge
 
-=Display mock travel data using custom componets in React.
+-Display mock travel data using custom componets in React.
 
 ### Screenshot
 
 ![](./screenshots/Desktop.png)
-![](./screenshots/Smaller_SCreen.png)
+![](./screenshots/Smaller_Screen.png)
 
 ## My process
 
